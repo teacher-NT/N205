@@ -1,42 +1,35 @@
 import os
 os.system("cls")
 
-car = {
-    "brand": "Chevrolet",
-    "model": "Cobalt",
-    "rang": ["oq", "qora", "qizil", "ko'k","yashil"],
-    "narx": 12000,
-    "ish-turi": "Taksi",
-    "probeg": 80_000,
-}
-# print(car["yil"])
-# print(car.get('yil', "topilmadi"))
+# def salom_ber():
+#     print("Salom hammaga")
 
-# print(list(car.keys()))
+# salom_ber()
+# salom_ber()
+# salom_ber()
 
-# print(list(car.values()))
+def func1():
+    pass
 
-# k = car.pop("probeg")
-# print(car)
-# print(k)
+# def func2(a, b):
+#     print(a + b)
+# func2("Salom ", "Dunyo")
+# func2("Salom ", 11)
 
-# car2 = car.copy()
-# print(car2)
+# def func3(a, b):
+#     c = a+b
+#     return c
 
-# print(car.items())
-# for i,j in car.items():
-#     print(i, j)
+# print(func3(2,5))
 
-# car.clear()
-# print(car)
+# def func4(a, b):
+#     c = a + b
+#     d = a * b
+#     return c, d
+# a, b = func4(4,6)
+# print(a, b)
+# print(func4(4,6))
 
-# k = car.popitem()
-# print(k)
-# print(car)
-
-# car['narx'] = 9000
-# car['ish-turi'] = 'dastavka'
-# car['probeg'] = 100000
-
-car.update({"narx": 9000, 'ish-turi':'dastavka', 'probeg':100000})
-print(car)
+def func5(a,b,c=0):
+    print(a+b+c)
+func5(3,4)
