@@ -1,18 +1,16 @@
 import os
 os.system("cls")
 
-import random as rd
+import cv2
 
-n = rd.randint(1,100)
-print(n)
+camera = cv2.VideoCapture("https://10.184.0.187:8080/video")
 
-# m = rd.uniform(1, 10)
-# print(m)
 
-names = ['Samandar', 'Sherali', 'Doston', 'Begzod', 'Suhrob']
-print(rd.choice(names))
-print(rd.choices(names, k=2))
-print(rd.sample(names, k=2))
+while True:
+    is_valid, image = camera.read()
+    if is_valid:
+        cv2.imshow("Selfi", image)
 
-rd.shuffle(names)
-print(names)
+    if cv2.waitKey(1) & 0xfff == 32:
+        break
+
