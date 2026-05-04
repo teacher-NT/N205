@@ -1,15 +1,18 @@
 import os
 os.system("cls")
 
-import math
+import random as rd
 
-print(math.pow(5, 3))
+n = rd.randint(1,100)
+print(n)
 
-print(math.sqrt(25))
+# m = rd.uniform(1, 10)
+# print(m)
 
-print(math.log2(16))
-print(math.log(625, 5))
+names = ['Samandar', 'Sherali', 'Doston', 'Begzod', 'Suhrob']
+print(rd.choice(names))
+print(rd.choices(names, k=2))
+print(rd.sample(names, k=2))
 
-print(math.floor(2.95))
-print(math.ceil(4.01))
-print(round(2.95), round(4.51))
+rd.shuffle(names)
+print(names)
