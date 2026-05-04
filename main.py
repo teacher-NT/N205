@@ -1,14 +1,15 @@
 import os
 os.system("cls")
 
-ages = [19,23,15,31,18]
+import math
 
-def func1(n):
-    return n+1
-lst2 = list(map(func1, ages))
-print(lst2)
+print(math.pow(5, 3))
 
-lst2 = list(map(lambda n: n+1, ages))
-print(lst2)
+print(math.sqrt(25))
 
+print(math.log2(16))
+print(math.log(625, 5))
 
+print(math.floor(2.95))
+print(math.ceil(4.01))
+print(round(2.95), round(4.51))
