@@ -1,16 +1,37 @@
 import os
 os.system("cls")
+import json
 
-import cv2
+# users= [
+#     {
+#         "username": "ozodoov__",
+#         "followers":500,
+#         "following": 100,
+#         "posts_count": 0
+#     },
+#     {
+#         "username": "suhrob",
+#         "followers":500,
+#         "following": 1200,
+#         "posts_count": 6000
+#     },
+#     {
+#         "username": "Sherali",
+#         "followers":220,
+#         "following": 340,
+#         "posts_count": 32
+#     },
+#     {
+#         "username": "Ayubxon",
+#         "followers":5000,
+#         "following": 280,
+#         "posts_count": 40
+#     }
+# ]
 
-camera = cv2.VideoCapture("https://10.184.0.187:8080/video")
+# file = open("users.json", "w")
+# json.dump(users, file, indent=4)
 
-
-while True:
-    is_valid, image = camera.read()
-    if is_valid:
-        cv2.imshow("Selfi", image)
-
-    if cv2.waitKey(1) & 0xfff == 32:
-        break
-
+file = open("users.txt")
+users = json.load(file)
+print(users)
