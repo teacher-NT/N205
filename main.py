@@ -1,9 +1,15 @@
 import os
 os.system("cls")
 
-with open("image.jpeg", "rb") as file:
-    baytlar = list(file.read())
-    # for i in baytlar:
-    #     print(i, end=" ")
+from pytubefix import YouTube
 
-    print(f"\n{len(baytlar)} ta raqam")
+link = input("Video linkini kiriting: ")
+try:
+    yt = YouTube(link)
+    print("Video yuklanmoqda...")
+    video = yt.streams.get_highest_resolution()
+    video.download("videolar/")
+except:
+    print("Video yuklashda xatolik...")
+else:
+    print("Video yuklandi...")
