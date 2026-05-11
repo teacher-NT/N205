@@ -1,0 +1,536 @@
+[
+    {
+        "name": "William Shakespeare",
+        "birth_date": "1564-04-23",
+        "birth_place": "Stratford-upon-Avon, England",
+        "description": "Ingliz dramaturgi va shoiri, ingliz tilidagi eng buyuk yozuvchi sifatida tan olingan."
+    },
+    {
+        "name": "Marie Curie",
+        "birth_date": "1867-11-07",
+        "birth_place": "Warsaw, Poland",
+        "description": "Radioaktivlik sohasida kashshof va Nobel mukofotini olgan birinchi ayol."
+    },
+    {
+        "name": "Galileo Galilei",
+        "birth_date": "1564-02-15",
+        "birth_place": "Pisa, Italy",
+        "description": "Astronom va fizik, 'Zamonaviy fan otasi' sifatida tanilgan."
+    },
+    {
+        "name": "Nelson Mandela",
+        "birth_date": "1918-07-18",
+        "birth_place": "Mvezo, South Africa",
+        "description": "Apartheidga qarshi inqilobchi va Janubiy Afrikaning sobiq prezidenti."
+    },
+    {
+        "name": "Julius Caesar",
+        "birth_date": "100 BC",
+        "birth_place": "Rome, Italy",
+        "description": "Rim generali va davlat arbobi, Rim Respublikasining qulashi jarayonidagi muhim shaxs."
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "birth_date": "1974-11-11",
+        "birth_place": "Los Angeles, California, USA",
+        "description": "Titanic, Inception va The Revenant filmlaridagi rollari bilan tanilgan Oskar mukofoti sovrindori."
+    },
+    {
+        "name": "Meryl Streep",
+        "birth_date": "1949-06-22",
+        "birth_place": "Summit, New Jersey, USA",
+        "description": "Mashhur aktrisa va uch karra Oskar mukofoti sohibi, ko'plab muvaffaqiyatli ijrolari bilan tanilgan."
+    },
+    {
+        "name": "Robert De Niro",
+        "birth_date": "1943-08-17",
+        "birth_place": "New York City, New York, USA",
+        "description": "Afsonaviy aktyor, The Godfather Part II, Taxi Driver va Raging Bull filmlari bilan tanilgan."
+    },
+    {
+        "name": "Tom Hanks",
+        "birth_date": "1956-07-09",
+        "birth_place": "Concord, California, USA",
+        "description": "Sevimli aktyor, Forrest Gump, Cast Away va Saving Private Ryan filmlari bilan tanilgan."
+    },
+    {
+        "name": "Natalie Portman",
+        "birth_date": "1981-06-09",
+        "birth_place": "Jerusalem, Israel",
+        "description": "Oskar mukofoti sovrindori, Black Swan va V for Vendetta filmlari bilan mashhur."
+    },
+    {
+        "name": "Morgan Freeman",
+        "birth_date": "1937-06-01",
+        "birth_place": "Memphis, Tennessee, USA",
+        "description": "Veteran aktyor, The Shawshank Redemption va Million Dollar Baby filmlari bilan tanilgan."
+    },
+    {
+        "name": "Cate Blanchett",
+        "birth_date": "1969-05-14",
+        "birth_place": "Melbourne, Australia",
+        "description": "Ikki karra Oskar mukofoti sovrindori, Blue Jasmine va Elizabeth filmlari bilan tanilgan."
+    },
+    {
+        "name": "Denzel Washington",
+        "birth_date": "1954-12-28",
+        "birth_place": "Mount Vernon, New York, USA",
+        "description": "Mukofotlangan aktyor, Training Day, Malcolm X va Glory filmlari bilan mashhur."
+    },
+    {
+        "name": "Angelina Jolie",
+        "birth_date": "1975-06-04",
+        "birth_place": "Los Angeles, California, USA",
+        "description": "Oskar mukofoti sovrindori, Girl, Interrupted va Maleficent filmlari bilan tanilgan."
+    },
+    {
+        "name": "Brad Pitt",
+        "birth_date": "1963-12-18",
+        "birth_place": "Shawnee, Oklahoma, USA",
+        "description": "Oskar mukofoti sovrindori va prodyuser, Fight Club va Once Upon a Time in Hollywood filmlari bilan tanilgan."
+    },
+    {
+        "name": "Scarlett Johansson",
+        "birth_date": "1984-11-22",
+        "birth_place": "New York City, New York, USA",
+        "description": "Aktrisa, Marvel Cinematic Universe va Lost in Translation filmlari bilan mashhur."
+    },
+    {
+        "name": "Joaquin Phoenix",
+        "birth_date": "1974-10-28",
+        "birth_place": "San Juan, Puerto Rico",
+        "description": "Oskar mukofoti sovrindori, Joker, Gladiator va Walk the Line filmlari bilan mashhur."
+    },
+    {
+        "name": "Nicole Kidman",
+        "birth_date": "1967-06-20",
+        "birth_place": "Honolulu, Hawaii, USA",
+        "description": "Aktrisa, Moulin Rouge, The Hours va Big Little Lies filmlari bilan tanilgan."
+    },
+    {
+        "name": "Christian Bale",
+        "birth_date": "1974-01-30",
+        "birth_place": "Haverfordwest, Wales, UK",
+        "description": "Oskar mukofoti sovrindori, The Dark Knight trilogiyasi va The Fighter filmlari bilan tanilgan."
+    },
+    {
+        "name": "Emma Stone",
+        "birth_date": "1988-11-06",
+        "birth_place": "Scottsdale, Arizona, USA",
+        "description": "Oskar mukofoti sovrindori, La La Land va The Help filmlari bilan mashhur."
+    },
+    {
+        "name": "Johnny Depp",
+        "birth_date": "1963-06-09",
+        "birth_place": "Owensboro, Kentucky, USA",
+        "description": "Famed actor known for Pirates of the Caribbean series and Edward Scissorhands."
+    },
+    {
+        "name": "Sandra Bullock",
+        "birth_date": "1964-07-26",
+        "birth_place": "Arlington, Virginia, USA",
+        "description": "Academy Award-winning actress known for Gravity and The Blind Side."
+    },
+    {
+        "name": "Will Smith",
+        "birth_date": "1968-09-25",
+        "birth_place": "Philadelphia, Pennsylvania, USA",
+        "description": "Actor and producer known for roles in The Pursuit of Happyness and Men in Black."
+    },
+    {
+        "name": "Hugh Jackman",
+        "birth_date": "1968-10-12",
+        "birth_place": "Sydney, Australia",
+        "description": "Actor known for playing Wolverine in the X-Men series and for The Greatest Showman."
+    },
+    {
+        "name": "Julia Roberts",
+        "birth_date": "1967-10-28",
+        "birth_place": "Smyrna, Georgia, USA",
+        "description": "Oscar-winning actress known for Pretty Woman and Erin Brockovich."
+    },
+    {
+        "name": "Elon Musk",
+        "birth_date": "1971-06-28",
+        "birth_place": "Pretoria, South Africa",
+        "description": "Tesla, SpaceX va boshqa kompaniyalarni asos solgan texnologiya va biznes olamidagi innovator."
+    },
+    {
+        "name": "Jeff Bezos",
+        "birth_date": "1964-01-12",
+        "birth_place": "Albuquerque, USA",
+        "description": "Amazon kompaniyasining asoschisi va e-tijorat sohasidagi inqilobchi."
+    },
+    {
+        "name": "Bill Gates",
+        "birth_date": "1955-10-28",
+        "birth_place": "Seattle, USA",
+        "description": "Microsoft kompaniyasining asoschilaridan biri va zamonaviy texnologiyaning rivojlanishiga katta hissa qo'shgan shaxs."
+    },
+    {
+        "name": "Warren Buffett",
+        "birth_date": "1930-08-30",
+        "birth_place": "Omaha, USA",
+        "description": "Berkshire Hathaway kompaniyasining rahbari va investitsiya bo'yicha daho."
+    },
+    {
+        "name": "Steve Jobs",
+        "birth_date": "1955-02-24",
+        "birth_place": "San Francisco, USA",
+        "description": "Apple kompaniyasining asoschisi va texnologiya dizaynida inqilob qilgan shaxs."
+    },
+    {
+        "name": "Larry Page",
+        "birth_date": "1973-03-26",
+        "birth_place": "Lansing, USA",
+        "description": "Google asoschilaridan biri va internet qidiruv tizimini yaratganlardan biri."
+    },
+    {
+        "name": "Mark Zuckerberg",
+        "birth_date": "1984-05-14",
+        "birth_place": "White Plains, USA",
+        "description": "Facebook ijtimoiy tarmog'ining asoschisi va raqamli aloqa bo'yicha kashshof."
+    },
+    {
+        "name": "Jack Ma",
+        "birth_date": "1964-09-10",
+        "birth_place": "Hangzhou, China",
+        "description": "Alibaba Group kompaniyasining asoschisi va xitoylik tadbirkor."
+    },
+    {
+        "name": "Richard Branson",
+        "birth_date": "1950-07-18",
+        "birth_place": "Blackheath, England",
+        "description": "Virgin Group asoschisi va turli sohalarda tadbirkor."
+    },
+    {
+        "name": "Howard Schultz",
+        "birth_date": "1953-07-19",
+        "birth_place": "Brooklyn, USA",
+        "description": "Starbucks qahva tarmog'ining rivojlanishida katta hissa qo'shgan rahbar."
+    },
+    {
+        "name": "Michael Bloomberg",
+        "birth_date": "1942-02-14",
+        "birth_place": "Boston, USA",
+        "description": "Bloomberg L.P. asoschisi va sobiq New York shahar meri."
+    },
+    {
+        "name": "Larry Ellison",
+        "birth_date": "1944-08-17",
+        "birth_place": "New York, USA",
+        "description": "Oracle Corporation asoschilaridan biri va texnologik tadbirkor."
+    },
+    {
+        "name": "Reed Hastings",
+        "birth_date": "1960-10-08",
+        "birth_place": "Boston, USA",
+        "description": "Netflix asoschisi va striming xizmatlarini ommalashtirgan kashshof."
+    },
+    {
+        "name": "Travis Kalanick",
+        "birth_date": "1976-08-06",
+        "birth_place": "Los Angeles, USA",
+        "description": "Uber kompaniyasining asoschilaridan biri va raqamli transport xizmatlarini rivojlantirishda lider."
+    },
+    {
+        "name": "Henry Ford",
+        "birth_date": "1863-07-30",
+        "birth_place": "Greenfield Township, USA",
+        "description": "Ford Motor Company asoschisi va avtomobil sanoati inqilobchisi."
+    },
+    {
+        "name": "Ingvar Kamprad",
+        "birth_date": "1926-03-30",
+        "birth_place": "\u00c3\u201elmhult, Sweden",
+        "description": "IKEA asoschisi va arzon narxdagi mebel konsepsiyasini joriy qilgan shaxs."
+    },
+    {
+        "name": "Phil Knight",
+        "birth_date": "1938-02-24",
+        "birth_place": "Portland, USA",
+        "description": "Nike asoschisi va sport brendini global darajaga ko'targan tadbirkor."
+    },
+    {
+        "name": "Oprah Winfrey",
+        "birth_date": "1954-01-29",
+        "birth_place": "Kosciusko, USA",
+        "description": "Mediya olamida muvaffaqiyatga erishgan tadbirkor va filantrop."
+    },
+    {
+        "name": "Ray Kroc",
+        "birth_date": "1902-10-05",
+        "birth_place": "Oak Park, USA",
+        "description": "McDonald's restoran tarmog'ining rivojlanishida asosiy rol o'ynagan shaxs."
+    },
+    {
+        "name": "Amancio Ortega",
+        "birth_date": "1936-03-28",
+        "birth_place": "Busdongo de Arbas, Spain",
+        "description": "Zara va Inditex kompaniyalari asoschisi, moda sanoatining lideri."
+    },
+    {
+        "name": "Michael Jordan",
+        "birth_date": "1963-02-17",
+        "birth_place": "Brooklyn, USA",
+        "description": "NBA tarixidagi eng buyuk basketbolchilardan biri va 6 karra chempion."
+    },
+    {
+        "name": "Muhammad Ali",
+        "birth_date": "1942-01-17",
+        "birth_place": "Louisville, USA",
+        "description": "Afsonaviy bokschi va uch karra og'ir vaznli chempion."
+    },
+    {
+        "name": "Usain Bolt",
+        "birth_date": "1986-08-21",
+        "birth_place": "Sherwood Content, Jamaica",
+        "description": "Dunyoning eng tez yuguruvchisi va Olimpiya oltin medali sohibi."
+    },
+    {
+        "name": "Lionel Messi",
+        "birth_date": "1987-06-24",
+        "birth_place": "Rosario, Argentina",
+        "description": "Dunyoning eng buyuk futbolchilaridan biri va ko'plab mukofotlar sohibi."
+    },
+    {
+        "name": "Cristiano Ronaldo",
+        "birth_date": "1985-02-05",
+        "birth_place": "Funchal, Portugal",
+        "description": "Futbol olamining yorqin yulduzi va ko'plab rekordlar sohibi."
+    },
+    {
+        "name": "Serena Williams",
+        "birth_date": "1981-09-26",
+        "birth_place": "Saginaw, USA",
+        "description": "Tennis bo'yicha ko'plab 'Grand Slam' turnirlarida g'olib bo'lgan sportchi."
+    },
+    {
+        "name": "Roger Federer",
+        "birth_date": "1981-08-08",
+        "birth_place": "Basel, Switzerland",
+        "description": "Tennis tarixidagi eng buyuk o'yinchilardan biri va 20 karra 'Grand Slam' chempioni."
+    },
+    {
+        "name": "Tiger Woods",
+        "birth_date": "1975-12-30",
+        "birth_place": "Cypress, USA",
+        "description": "Golf tarixidagi eng muvaffaqiyatli o'yinchilardan biri."
+    },
+    {
+        "name": "LeBron James",
+        "birth_date": "1984-12-30",
+        "birth_place": "Akron, USA",
+        "description": "NBA yulduzi va ko'plab mukofotlar sohibi."
+    },
+    {
+        "name": "Pele",
+        "birth_date": "1940-10-23",
+        "birth_place": "Tr\u00c3\u00aas Cora\u00c3\u00a7\u00c3\u00b5es, Brazil",
+        "description": "Futbol tarixidagi eng buyuk futbolchilardan biri va uch karra jahon chempioni."
+    },
+    {
+        "name": "Diego Maradona",
+        "birth_date": "1960-10-30",
+        "birth_place": "Lan\u00c3\u00bas, Argentina",
+        "description": "Afsonaviy futbolchi va futbol olamining yorqin vakili."
+    },
+    {
+        "name": "Simone Biles",
+        "birth_date": "1997-03-14",
+        "birth_place": "Columbus, USA",
+        "description": "Olimpiya gimnastika yulduzi va ko'plab oltin medallar sohibi."
+    },
+    {
+        "name": "Michael Phelps",
+        "birth_date": "1985-06-30",
+        "birth_place": "Baltimore, USA",
+        "description": "Olimpiya tarixidagi eng ko'p medal sohibi va suv sportlari afsonasi."
+    },
+    {
+        "name": "Nadia Comaneci",
+        "birth_date": "1961-11-12",
+        "birth_place": "One\u00c8\u2122ti, Romania",
+        "description": "Gimnastikada tarixdagi birinchi mukammal 10 baho olgan sportchi."
+    },
+    {
+        "name": "Tom Brady",
+        "birth_date": "1977-08-03",
+        "birth_place": "San Mateo, USA",
+        "description": "NFL tarixidagi eng buyuk chorak himoyachisi va ko'plab chempionliklar sohibi."
+    },
+    {
+        "name": "Kobe Bryant",
+        "birth_date": "1978-08-23",
+        "birth_place": "Philadelphia, USA",
+        "description": "NBA afsonasi va 'Black Mamba' nomi bilan tanilgan basketbolchi."
+    },
+    {
+        "name": "Rafael Nadal",
+        "birth_date": "1986-06-03",
+        "birth_place": "Manacor, Spain",
+        "description": "Tennis boyicha afsonaviy oyinchi va 22 karra 'Grand Slam' chempioni."
+    },
+    {
+        "name": "Mike Tyson",
+        "birth_date": "1966-06-30",
+        "birth_place": "Brooklyn, USA",
+        "description": "Boks tarixidagi eng kuchli va dahshatli bokschilardan biri."
+    },
+    {
+        "name": "Novak Djokovic",
+        "birth_date": "1987-05-22",
+        "birth_place": "Belgrade, Serbia",
+        "description": "Tennis tarixidagi eng kuchli o'yinchilardan biri va ko'plab chempionliklar sohibi."
+    },
+    {
+        "name": "Ayrton Senna",
+        "birth_date": "1960-03-21",
+        "birth_place": "S\u00c3\u00a3o Paulo, Brazil",
+        "description": "Formula 1 tarixidagi eng buyuk haydovchilardan biri."
+    },
+    {
+        "name": "Michael Jackson",
+        "birth_date": "1958-08-29",
+        "birth_place": "Gary, USA",
+        "description": "Pop musiqa qiroli sifatida tanilgan va musiqiy tarixdagi eng buyuk san'atkorlardan biri."
+    },
+    {
+        "name": "Freddie Mercury",
+        "birth_date": "1946-09-05",
+        "birth_place": "Stone Town, Tanzania",
+        "description": "Queen guruhining solisti va musiqiy afsona."
+    },
+    {
+        "name": "Elvis Presley",
+        "birth_date": "1935-01-08",
+        "birth_place": "Tupelo, USA",
+        "description": "Rock and roll qiroli va musiqiy tarixdagi yorqin yulduz."
+    },
+    {
+        "name": "Whitney Houston",
+        "birth_date": "1963-08-09",
+        "birth_place": "Newark, USA",
+        "description": "Afsonaviy qo'shiqchi va 'I Will Always Love You' kabi xit qo'shiqlarning ijrochisi."
+    },
+    {
+        "name": "Beyonc\u00c3\u00a9",
+        "birth_date": "1981-09-04",
+        "birth_place": "Houston, USA",
+        "description": "Dunyodagi eng muvaffaqiyatli qo'shiqchilar va ijrochilardan biri."
+    },
+    {
+        "name": "Adele",
+        "birth_date": "1988-05-05",
+        "birth_place": "Tottenham, England",
+        "description": "Muvaffaqiyatli balladalar ijrochisi va ko'plab Grammy mukofotlari sohibi."
+    },
+    {
+        "name": "Bob Marley",
+        "birth_date": "1945-02-06",
+        "birth_place": "Nine Mile, Jamaica",
+        "description": "Reggae musiqasi afsonasi va tinchlik elchisi sifatida tanilgan."
+    },
+    {
+        "name": "Madonna",
+        "birth_date": "1958-08-16",
+        "birth_place": "Bay City, USA",
+        "description": "Pop musiqaning qirolichasi va musiqiy sanoatdagi inqilobchi."
+    },
+    {
+        "name": "Taylor Swift",
+        "birth_date": "1989-12-13",
+        "birth_place": "Reading, USA",
+        "description": "Country va pop musiqada katta muvaffaqiyatga erishgan ijrochi."
+    },
+    {
+        "name": "Lady Gaga",
+        "birth_date": "1986-03-28",
+        "birth_place": "New York City, USA",
+        "description": "Ijodkor qo'shiqchi, aktrisa va moda ikonasiga aylangan yulduz."
+    },
+    {
+        "name": "John Lennon",
+        "birth_date": "1940-10-09",
+        "birth_place": "Liverpool, England",
+        "description": "The Beatles guruhining asoschilaridan biri va tinchlik uchun harakatlar faoliyati bilan mashhur."
+    },
+    {
+        "name": "Paul McCartney",
+        "birth_date": "1942-06-18",
+        "birth_place": "Liverpool, England",
+        "description": "The Beatles guruhining a\u00e2\u20ac\u2122zosi va dunyodagi eng muvaffaqiyatli musiqiy karyeralardan biriga ega bo'lgan shaxs."
+    },
+    {
+        "name": "Rihanna",
+        "birth_date": "1988-02-20",
+        "birth_place": "Saint Michael, Barbados",
+        "description": "R&B, pop va moda olamida katta muvaffaqiyatga erishgan yulduz."
+    },
+    {
+        "name": "Ed Sheeran",
+        "birth_date": "1991-02-17",
+        "birth_place": "Halifax, England",
+        "description": "Muvaffaqiyatli qo'shiqlar ijrochisi va gitarachi."
+    },
+    {
+        "name": "Bruno Mars",
+        "birth_date": "1985-10-08",
+        "birth_place": "Honolulu, USA",
+        "description": "Pop, funk va R&B musiqasining yorqin vakili."
+    },
+    {
+        "name": "Ariana Grande",
+        "birth_date": "1993-06-26",
+        "birth_place": "Boca Raton, USA",
+        "description": "Pop va R&B musiqasining zamonaviy yulduzi va ko'plab mukofotlar sohibasi."
+    },
+    {
+        "name": "Frank Sinatra",
+        "birth_date": "1915-12-12",
+        "birth_place": "Hoboken, USA",
+        "description": "Klassik pop va jazz qo'shiqlarining afsonasi."
+    },
+    {
+        "name": "Justin Bieber",
+        "birth_date": "1994-03-01",
+        "birth_place": "London, Canada",
+        "description": "Pop musiqaning zamonaviy yulduzi va ko'plab mukofotlar sohibi."
+    },
+    {
+        "name": "Shakira",
+        "birth_date": "1977-02-02",
+        "birth_place": "Barranquilla, Colombia",
+        "description": "Pop va latino musiqaning global yulduzi."
+    },
+    {
+        "name": "Elton John",
+        "birth_date": "1947-03-25",
+        "birth_place": "Pinner, England",
+        "description": "Afsonaviy qo'shiqchi va pianinochi, ko'plab yodgor xit qo'shiqlar ijrochisi."
+    },
+    {
+        "name": "Anvar aka",
+        "birth_date": "2001-11-19",
+        "birth_place": "Sir daryo",
+        "description": "Oqkongil bola"
+    },
+    {
+        "name": "Anvar",
+        "birth_date": "2025-05-04",
+        "birth_place": "Sirdaryo",
+        "description": "Oqkongil bola"
+    },
+    {
+        "name": "Suhrob",
+        "birth_date": "2007-07-29",
+        "birth_place": "Samarqand shahri",
+        "description": "Juda sergap ezma, quvnoq bola"
+    },
+    {
+        "name": "Jahongir",
+        "birth_date": "2007-09-22",
+        "birth_place": "Toshkent shahri",
+        "description": "O'rta maxsus bekorchi"
+    }
+]
