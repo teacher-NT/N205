@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 from PyQt5.QtWidgets import (
-    QApplication, QWidget, QLabel, QPushButton
+    QApplication, QWidget, QLabel, QPushButton, QLineEdit
 )
 
 from PyQt5.QtGui import QFont
