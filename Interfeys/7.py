@@ -17,6 +17,7 @@ radio_style = """
     color: #1b5e20;
     font-weight: bold;
 """
+
 class Window(QWidget):
     def __init__(self):
         super().__init__()
