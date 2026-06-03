@@ -3,6 +3,7 @@ os.system("cls")
 
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QPushButton, QComboBox, QCheckBox, QRadioButton,
+    QMessageBox,
     QVBoxLayout, QHBoxLayout
 )
 check_style = """
@@ -43,7 +44,7 @@ class Window(QWidget):
 
         self.add_checkbox()
         self.add_radio()
-        self.btn1 = QPushButton("Tugmacha 1")
+        self.btn1 = QPushButton("Buyurtma berish")
         self.btn1.clicked.connect(self.select_radio)
         self.vbox.addWidget(self.btn1)
         
@@ -53,6 +54,7 @@ class Window(QWidget):
     def select_food(self):
         text = self.combo.currentText()
         self.selected_food.setText(f"Tanlangan ovqat: {text}")
+        return f"Tanlangan ovqat: {text}"
     
     def add_checkbox(self):
         self.check1 = QCheckBox("Choy")
@@ -89,6 +91,7 @@ class Window(QWidget):
         if self.check5.isChecked():
             text += self.check5.text()
         self.selected_drink.setText(text)
+        return text
 
     def add_radio(self):
         self.r1 = QRadioButton("Naqd")
@@ -103,11 +106,11 @@ class Window(QWidget):
         
     def select_radio(self):
         if self.r1.isChecked():
-            print(f"To'lov turi: {self.r1.text()}")
+           QMessageBox.information(self, "Xabar", f"{self.select_food()}\n{self.select_drink()}\nTo'lov turi: {self.r1.text()}")
         elif self.r2.isChecked():
-            print(f"To'lov turi: {self.r2.text()}")
+            QMessageBox.warning(self, "Xabar", f"{self.select_food()}\n{self.select_drink()}\nTo'lov turi: {self.r2.text()}")
         elif self.r3.isChecked():
-            print(f"To'lov turi: {self.r3.text()}")
+            QMessageBox.question(self, "Xabar", f"{self.select_food()}\n{self.select_drink()}\nTo'lov turi: {self.r3.text()}")
 
 app = QApplication([])
 win = Window()
